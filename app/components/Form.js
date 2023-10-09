@@ -7,13 +7,6 @@ function Form() {
   const t = useTranslations("Index");
 
   const [email, setEmail] = useState("");
-  const onLoginWithGoogle = () => {
-    signIn("google");
-  };
-
-  const onLoginWithMicrosoft = () => {
-    signIn("azure-ad");
-  };
 
   const onLoginWithEmail = (e) => {
     e.preventDefault();
