@@ -1,0 +1,32 @@
+:root {
+    --swiper-pagination-progressbar-bg-color: #c2caeb;
+    --swiper-pagination-progressbar-size: 4px;
+    --swiper-pagination-bottom: 10px;
+    --swiper-pagination-color: #f2b434;
+    --swiper-navigation-size: 20px;
+    --swiper-navigation-top-offset: 98.5%;
+    --swiper-navigation-sides-offset: 10px;
+    --swiper-navigation-color: white;
+}
+
+.swiper-horizontal>.swiper-pagination-progressbar,
+.swiper-pagination-progressbar.swiper-pagination-horizontal,
+.swiper-pagination-progressbar.swiper-pagination-vertical.swiper-pagination-progressbar-opposite,
+.swiper-vertical>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
+    top: 98%;
+    width: 55%;
+    left: 22.5%;
+}
+
+.text-h2 {
+    font-size: 2.25rem;
+}
+
+.order-2 {
+    justify-content: center;
+    display: flex;
+}
+
+.order-2 img {
+    width: 70%;
+}

@@ -1,0 +1,23 @@
+   <xml version="1.0" encoding="UTF-8">
+   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+     <url>
+       <loc>https://app.gdpr.direct/</loc>
+     </url>
+     <url>
+       <loc>https://app.gdpr.direct/private</loc>
+     </url>
+          <url>
+       <loc>https://app.gdpr.direct/private/quick-tutorial-about-gdpr</loc>
+     </url>
+          <url>
+       <loc>https://app.gdpr.direct/private/add-company-info</loc>
+     </url>
+          <url>
+       <loc>https://app.gdpr.direct/private/legal-hub</loc>
+     </url>
+               <url>
+       <loc>https://app.gdpr.direct/private/documents</loc>
+     </url>
+
+   </urlset>
+   </xml>
