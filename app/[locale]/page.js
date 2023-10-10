@@ -17,16 +17,13 @@ export default function Home() {
 
   return (
     <div>
-      <div className="bg-blue-500 text-white p-4">
-        Este es un div con estilos de Tailwind CSS.
-      </div>{" "}
       {/* <Head>
         <title>{t("HomeTitleSEO")}</title>
         <link rel="canonical" href="https://app.gdpr.direct/" key="canonical" />
       </Head> */}
       <div className="grid grid-cols-1 xl:grid-cols-3 min-h-screen max-h-screen bg-gradient-to-br from-white via-gray-200 to-gray-100">
         <div className="rounded-t-[40px] xl:rounded-r-[60px] xl:rounded-tl-none xl:col-span-2 flex flex-col justify-center bg-gradient-to-tr  from-primary-color via-[#6074cb] to-primary-color order-2 xl:order-1">
-          {/* <SliderHome /> */}
+          <SliderHome />
         </div>
         <div className="flex justify-center order-1 xl:order-2">
           <div className="flex flex-col justify-center items-center py-4 xl:py-6 px-6">
